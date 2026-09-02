@@ -1,13 +1,9 @@
 // ============================================================
-// Cliente Supabase — mesmo projeto/repositório usado pelo
-// PMOC Digital. Preencha as duas constantes abaixo com os
-// valores do SEU projeto Supabase (Project Settings > API).
-// A anon key é segura para uso no front-end (fica restrita
-// pelas policies de RLS definidas em sql/schema.sql).
+// Cliente Supabase — projeto dedicado "COMISSIONAMENTO HVAC".
 // ============================================================
 
-const SUPABASE_URL = "COLE_AQUI_A_URL_DO_SEU_PROJETO_SUPABASE";
-const SUPABASE_ANON_KEY = "COLE_AQUI_A_ANON_KEY_DO_SEU_PROJETO_SUPABASE";
+const SUPABASE_URL = "https://izpqxrbbsciwlloqvrjk.supabase.co";
+const SUPABASE_ANON_KEY = "sb_publishable_ZEekLFYj3vn4pUn-GggRoQ_v3e070wf";
 
 // eslint-disable-next-line no-undef
 const supabase = window.supabase.createClient(SUPABASE_URL, SUPABASE_ANON_KEY);
