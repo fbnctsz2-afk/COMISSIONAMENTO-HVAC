@@ -1,1 +1,14 @@
-b
+{
+  "name": "Comissionamento - HVAC",
+  "short_name": "Comiss. HVAC",
+  "description": "Comissionamento de campo de sistemas HVAC — testes, evidências fotográficas e laudo técnico.",
+  "start_url": "./index.html",
+  "display": "standalone",
+  "background_color": "#10151A",
+  "theme_color": "#10151A",
+  "orientation": "portrait",
+  "icons": [
+    { "src": "icons/icon-192.png", "sizes": "192x192", "type": "image/png" },
+    { "src": "icons/icon-512.png", "sizes": "512x512", "type": "image/png" }
+  ]
+}
